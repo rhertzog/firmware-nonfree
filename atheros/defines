@@ -53,11 +53,10 @@ files:
  ath6k/AR6004/hw1.2/fw-2.bin
  ath6k/AR6004/hw1.3/bdata.bin
  ath6k/AR6004/hw1.3/fw-3.bin
- htc_7010.fw
- htc_9271.fw
 longdesc: USB wireless network and Bluetooth cards supported by the ar5523,
  ar9170, ath3k, ath6kl_sdio, ath6kl_usb or ath9k_htc drivers
 uri: http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
+depends: firmware-free (>> 3.4~)
 
 [ar3k/AthrBT_0x01020001.dfu_base]
 desc: Atheros AR3012 rev 01020001 patch
@@ -118,11 +117,3 @@ desc: Atheros AR9271 firmware
 
 [ath3k-1.fw_base]
 desc: Atheros AR3011 firmware
-
-[htc_7010.fw_base]
-desc: Atheros AR7010 firmware
-version: 1.3
-
-[htc_9271.fw_base]
-desc: Atheros AR9271 firmware
-version: 1.3

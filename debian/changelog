@@ -1,3 +1,11 @@
+firmware-nonfree (0.44) UNRELEASED; urgency=medium
+
+  * Drop htc_9271.fw and htc_7010.fw which have been moved to firmware-free.
+    Make firmware-atheros depend on firmware-free to ensure that users
+    keep their firmwares.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Jan 2015 18:33:50 +0100
+
 firmware-nonfree (0.43) unstable; urgency=medium
 
   * iwlwifi: Add Intel Wireless 3160, 7260 and 7265 firmware version
