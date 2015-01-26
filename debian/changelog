@@ -1,6 +1,13 @@
 firmware-nonfree (0.44) UNRELEASED; urgency=medium
 
+  [ Raphaël Hertzog ]
   * Switch to linux-support-3.16.0-4.
+
+  [ Sophie Brun ]
+  * Update iwlwifi, realtek/rtlwifi, realtek/rtl_nic firmwares
+  * Update Qlogic firmwares (2400 and 2500)
+  * Add linux non-free/cxgb4, bnx2x, dvb-* firmwares
+  * Add radeon firmwares
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Jan 2015 18:33:50 +0100
 
