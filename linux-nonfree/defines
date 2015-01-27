@@ -157,27 +157,45 @@ files:
  radeon/KAVERI_rlc.bin
  radeon/kaveri_sdma.bin
  radeon/KAVERI_sdma.bin
+ radeon/mullins_ce.bin
  radeon/MULLINS_ce.bin
+ radeon/mullins_me.bin
  radeon/MULLINS_me.bin
+ radeon/mullins_mec.bin
  radeon/MULLINS_mec.bin
+ radeon/mullins_pfp.bin
  radeon/MULLINS_pfp.bin
+ radeon/mullins_rlc.bin
  radeon/MULLINS_rlc.bin
+ radeon/mullins_sdma.bin
  radeon/MULLINS_sdma.bin
+ radeon/oland_ce.bin
  radeon/OLAND_ce.bin
+ radeon/oland_mc.bin
  radeon/OLAND_mc.bin
  radeon/OLAND_mc2.bin
+ radeon/oland_me.bin
  radeon/OLAND_me.bin
+ radeon/oland_pfp.bin
  radeon/OLAND_pfp.bin
+ radeon/oland_rlc.bin
  radeon/OLAND_rlc.bin
+ radeon/oland_smc.bin
  radeon/OLAND_smc.bin
  radeon/PALM_me.bin
  radeon/PALM_pfp.bin
+ radeon/pitcairn_ce.bin
  radeon/PITCAIRN_ce.bin
+ radeon/pitcairn_mc.bin
  radeon/PITCAIRN_mc.bin
  radeon/PITCAIRN_mc2.bin
+ radeon/pitcairn_me.bin
  radeon/PITCAIRN_me.bin
+ radeon/pitcairn_pfp.bin
  radeon/PITCAIRN_pfp.bin
+ radeon/pitcairn_rlc.bin
  radeon/PITCAIRN_rlc.bin
+ radeon/pitcairn_smc.bin
  radeon/PITCAIRN_smc.bin
  radeon/R100_cp.bin
  radeon/R200_cp.bin
@@ -717,26 +735,50 @@ desc: Radeon R5/R7 IGP 200 series SDMA microcode
 [radeon/KAVERI_sdma.bin_base]
 desc: Radeon R5/R7 IGP 200 series SDMA microcode 
 
+[radeon/mullins_ce.bin_base]
+desc: Radeon "Mullins"/"Beema" IGP CE microcode
+
 [radeon/MULLINS_ce.bin_base]
 desc: Radeon "Mullins"/"Beema" IGP CE microcode
+
+[radeon/mullins_me.bin_base]
+desc: Radeon "Mullins"/"Beema" IGP ME microcode
 
 [radeon/MULLINS_me.bin_base]
 desc: Radeon "Mullins"/"Beema" IGP ME microcode
 
+[radeon/mullins_mec.bin_base]
+desc: Radeon "Mullins"/"Beema" IGP MEC microcode
+
 [radeon/MULLINS_mec.bin_base]
 desc: Radeon "Mullins"/"Beema" IGP MEC microcode
+
+[radeon/mullins_pfp.bin_base]
+desc: Radeon "Mullins"/"Beema" IGP PFP microcode
 
 [radeon/MULLINS_pfp.bin_base]
 desc: Radeon "Mullins"/"Beema" IGP PFP microcode
 
+[radeon/mullins_rlc.bin_base]
+desc: Radeon "Mullins"/"Beema" IGP RLC microcode
+
 [radeon/MULLINS_rlc.bin_base]
 desc: Radeon "Mullins"/"Beema" IGP RLC microcode
+
+[radeon/mullins_sdma.bin_base]
+desc: Radeon "Mullins"/"Beema" IGP SDMA microcode
 
 [radeon/MULLINS_sdma.bin_base]
 desc: Radeon "Mullins"/"Beema" IGP SDMA microcode
 
+[radeon/oland_ce.bin_base]
+desc: Radeon HD 8500/8600/8700 series CE microcode
+
 [radeon/OLAND_ce.bin_base]
 desc: Radeon HD 8500/8600/8700 series CE microcode
+
+[radeon/oland_mc.bin_base]
+desc: Radeon HD 8500/8600/8700 series MC microcode
 
 [radeon/OLAND_mc.bin_base]
 desc: Radeon HD 8500/8600/8700 series MC microcode
@@ -746,14 +788,26 @@ version: 1
 desc: Radeon HD 8500/8600/8700 series MC microcode
 version: 2
 
+[radeon/oland_me.bin_base]
+desc: Radeon HD 8500/8600/8700 series ME microcode
+
 [radeon/OLAND_me.bin_base]
 desc: Radeon HD 8500/8600/8700 series ME microcode
+
+[radeon/oland_pfp.bin_base]
+desc: Radeon HD 8500/8600/8700 series PFP microcode
 
 [radeon/OLAND_pfp.bin_base]
 desc: Radeon HD 8500/8600/8700 series PFP microcode
 
+[radeon/oland_rlc.bin_base]
+desc: Radeon HD 8500/8600/8700 series RLC microcode
+
 [radeon/OLAND_rlc.bin_base]
 desc: Radeon HD 8500/8600/8700 series RLC microcode
+
+[radeon/oland_smc.bin_base]
+desc: Radeon HD 8500/8600/8700 series SMC microcode
 
 [radeon/OLAND_smc.bin_base]
 desc: Radeon HD 8500/8600/8700 series SMC microcode
@@ -764,8 +818,14 @@ desc: Radeon HD IGP 6200/6300/7300 series ME microcode
 [radeon/PALM_pfp.bin_base]
 desc: Radeon HD IGP 6200/6300/7300 series PFP microcode
 
+[radeon/pitcairn_ce.bin_base]
+desc: Radeon HD 7800 series CE microcode
+
 [radeon/PITCAIRN_ce.bin_base]
 desc: Radeon HD 7800 series CE microcode
+
+[radeon/pitcairn_mc.bin_base]
+desc: Radeon HD 7800 series MC microcode
 
 [radeon/PITCAIRN_mc.bin_base]
 desc: Radeon HD 7800 series MC microcode
@@ -775,14 +835,26 @@ version: 1
 desc: Radeon HD 7800 series MC microcode
 version: 2
 
+[radeon/pitcairn_me.bin_base]
+desc: Radeon HD 7800 series ME microcode
+
 [radeon/PITCAIRN_me.bin_base]
 desc: Radeon HD 7800 series ME microcode
+
+[radeon/pitcairn_pfp.bin_base]
+desc: Radeon HD 7800 series PFP microcode
 
 [radeon/PITCAIRN_pfp.bin_base]
 desc: Radeon HD 7800 series PFP microcode
 
+[radeon/pitcairn_rlc.bin_base]
+desc: Radeon HD 7800 series RLC microcode
+
 [radeon/PITCAIRN_rlc.bin_base]
 desc: Radeon HD 7800 series RLC microcode
+
+[radeon/pitcairn_smc.bin_base]
+desc: Radeon HD 7800 series SMC microcode
 
 [radeon/PITCAIRN_smc.bin_base]
 desc: Radeon HD 7800 series SMC microcode
