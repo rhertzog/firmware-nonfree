@@ -4,10 +4,28 @@ firmware-nonfree (0.44) UNRELEASED; urgency=medium
   * Switch to linux-support-3.16.0-4.
 
   [ Sophie Brun ]
-  * Update iwlwifi, realtek/rtlwifi, realtek/rtl_nic firmwares
-  * Update Qlogic firmwares (2400 and 2500)
-  * Add linux non-free/cxgb4, bnx2x, dvb-* firmwares
-  * Add radeon firmwares
+  * iwlwifi: Add Intel Wireless 3160, 7260 7265 and 7265D firmware to version
+    23.11.10.0 (ABI 10)
+  * iwlwifi: Update Intel Wireless 3160, 7260 an 7265 firmware to version
+    25.228.9.0 (ABI 9)
+  * realtek/rtlwifi: Add RTL8192EE, RTL8723AU rev A with-Bluetooth and
+    RTL8821AE firmwares
+  * realtek/rtlwifi: Update RTL8192CE/RTL8188CE, RTL8192CE/RTL8188CE B-cut, 
+    RTL8192DE
+  * realtek/rtl_nic: Add RTL8107E-1, RTL8107E-2, RTL8168H-1 and RTL8168H-2
+    firmwares
+  * qlogic: Updates ql 2400 and ql2500 firmwares to version 7.03.00
+  * linux-nonfree/cxgb4: Add Chelsio T4 and T5 firmware version 1.12.25.0
+  * bnx2x: Add Broadcom NetXtreme II 10Gb 57710, 57711 and 57712 firmware
+    version 7.10.51.0
+  * linux-nonfree: Add dvb-* firmwares. Xceive 4000 tuner firmware version
+    1.4.1, Xceive 5000c tuner firmware version 4.1.30.7, DiBcom dib9135 DVB-T
+    USB firmware and DiBcom dib9135 DVB-T USB firmware
+  * linux-nonfree: Add Radeon R600 UVD, RS780 UVD, RV770 UVD microcode.
+  * linux-nonfree: Add Radeon firmwares for kernel 3.17 and newer for HD 7790/
+    8770/8950, HD 8500M series and R5 M200, R9 290 series, HD 8100/8200/8300/
+    8400, R5/R7 IGP 200, "Mullins"/"Beema", HD 8500/8600/8700 series, HD 7800
+    series, HD 7900 series, HD 7700 series
   * brcm80211: Add firmware for bcm43236 usb device and bcm43143 usb device
   * myricom/myri10ge: Add firmwares myri10ge_eth_big_z8e.dat,
     myri10ge_ethp_big_z8e.dat, myri10ge_rss_eth_big_z8e.dat,
