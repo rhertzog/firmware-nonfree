@@ -8,6 +8,7 @@ firmware-nonfree (0.44) UNRELEASED; urgency=medium
   * Update Qlogic firmwares (2400 and 2500)
   * Add linux non-free/cxgb4, bnx2x, dvb-* firmwares
   * Add radeon firmwares
+  * brcm80211: Add firmware for bcm43236 usb device and bcm43143 usb device
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Jan 2015 18:33:50 +0100
 
