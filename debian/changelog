@@ -12,6 +12,9 @@ firmware-nonfree (0.44) UNRELEASED; urgency=medium
   * myricom/myri10ge: Add firmwares myri10ge_eth_big_z8e.dat,
     myri10ge_ethp_big_z8e.dat, myri10ge_rss_eth_big_z8e.dat,
     myri10ge_rss_ethp_big_z8e.dat
+  * iwlwifi/intel: update existing patches and add one patch for Intel
+    wireless bluetooth 3160 (ROM SPIN SKU) and one patch for Intel Wireless
+    7265 Bluetooth ROM-spin SKU, also known as StP D0
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Jan 2015 18:33:50 +0100
 
