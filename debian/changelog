@@ -9,6 +9,9 @@ firmware-nonfree (0.44) UNRELEASED; urgency=medium
   * Add linux non-free/cxgb4, bnx2x, dvb-* firmwares
   * Add radeon firmwares
   * brcm80211: Add firmware for bcm43236 usb device and bcm43143 usb device
+  * myricom/myri10ge: Add firmwares myri10ge_eth_big_z8e.dat,
+    myri10ge_ethp_big_z8e.dat, myri10ge_rss_eth_big_z8e.dat,
+    myri10ge_rss_ethp_big_z8e.dat
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Jan 2015 18:33:50 +0100
 
