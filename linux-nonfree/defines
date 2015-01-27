@@ -136,6 +136,7 @@ files:
  radeon/kabini_ce.bin
  radeon/KABINI_ce.bin
  radeon/KABINI_me.bin
+ radeon/kabini_mec.bin
  radeon/KABINI_mec.bin
  radeon/kabini_pfp.bin
  radeon/KABINI_pfp.bin
@@ -149,6 +150,7 @@ files:
  radeon/KAVERI_me.bin
  radeon/kaveri_mec.bin
  radeon/KAVERI_mec.bin
+ radeon/kaveri_mec2.bin
  radeon/kaveri_pfp.bin
  radeon/KAVERI_pfp.bin
  radeon/kaveri_rlc.bin
@@ -652,6 +654,9 @@ desc: Radeon HD 8100/8200/8300/8400 series CE microcode
 [radeon/KABINI_me.bin_base]
 desc: Radeon HD 8100/8200/8300/8400 series ME microcode
 
+[radeon/kabini_mec.bin_base]
+desc: Radeon HD 8100/8200/8300/8400 series MEC microcode
+
 [radeon/KABINI_mec.bin_base]
 desc: Radeon HD 8100/8200/8300/8400 series MEC microcode
 
@@ -690,6 +695,9 @@ desc: Radeon R5/R7 IGP 200 series MEC microcode
 
 [radeon/KAVERI_mec.bin_base]
 desc: Radeon R5/R7 IGP 200 series MEC microcode
+
+[radeon/kaveri_mec2.bin_base]
+desc: Radeon Kaveri
 
 [radeon/kaveri_pfp.bin_base]
 desc: Radeon R5/R7 IGP 200 series PFP microcode
